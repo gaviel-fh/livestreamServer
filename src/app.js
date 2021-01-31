@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
     })
 })
 
+app.post('/livestream', (req, res) => {
+    console.log("Starting livestream")
+})
 
 app.listen(PORT, () => {
     console.log("Server is running on Port " + PORT);
